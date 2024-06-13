@@ -1,7 +1,10 @@
 // @ts-check
+import React from 'react';
 
 export const Header = () => {
-  return <></>
+  return( 
+  <header>Dog アプリ</header>
+  )
 }
 
 export default Header

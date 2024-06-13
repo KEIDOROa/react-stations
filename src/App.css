@@ -1,0 +1,25 @@
+*{
+    margin:0;
+}
+img{
+    height: 200px;
+    width:300px;
+}
+p{
+    margin: auto 0;
+    width: 60%;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+button{
+    margin: 10px;
+    width:20%;
+    height:20px;
+}
+header{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+}

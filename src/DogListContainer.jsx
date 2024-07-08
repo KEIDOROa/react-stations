@@ -1,6 +1,7 @@
 import { App } from "./App"
 import { useState } from 'react'
 import { useEffect } from 'react';
+import BreedsSelect from './BreedsSelect'
 export const DogListContainer = () => {
   const[breeds,setBreeds]=useState([]);
   useEffect(() =>{
@@ -17,11 +18,7 @@ export const DogListContainer = () => {
   return (
     <div>
       <h2>Dog Breeds</h2>
-      <ul>
-        {breeds.map((breed, index) => (
-          <li key={index}>{breed}</li>
-        ))}
-      </ul>
+      <BreedsSelect breeds={breeds} />
     </div>
   )
 }
